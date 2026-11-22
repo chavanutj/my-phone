@@ -2,7 +2,18 @@
 
 > **Goal:** A phone app that shows the streams and small waterways near the user's current location. It builds the map from recent satellite imagery, so it shows where water is now and not only where an old map says it should be.
 
-Status: **planning** · Last updated: 2026-11-22
+Status: **v0.1 built (free GEE route)** · Last updated: 2026-11-22
+
+## ✅ Decisions (2026-11-22)
+| Question | Decision |
+|---|---|
+| Region | **Thailand + Laos** |
+| Platform | **Android beta**, delivered as a Google Earth Engine web app and added to the home screen from Chrome |
+| Cost | **US$0**: GEE noncommercial (Academia & Research) tier; no server, no Play Store fee |
+| Field-sample logging | Not needed |
+| Funding | None yet |
+
+**Chosen build:** `gee/find-stream.js` (see `gee/README.md`). The FastAPI/Expo architecture in §6 is kept as a **future option**, in case the app ever needs offline mode, a Play Store listing, or commercial use that GEE's free terms don't allow.
 
 ---
 
